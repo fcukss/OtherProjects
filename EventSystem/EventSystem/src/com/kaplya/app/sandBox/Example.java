@@ -25,7 +25,7 @@ public class Example extends Layer {
         this.color = color;
 
         rectangle = new Rectangle(random.nextInt(100) + 150,
-                random.nextInt(100) + 250, 120, 200);
+                random.nextInt(100) + 250, 120, 150);
     }
 
     public void onEvent(Event event) {
